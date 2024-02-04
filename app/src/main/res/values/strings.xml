@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">WallpaperApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="set_wallpaper">Set Wallpaper</string>
+    <string name="download_image">download</string>
+    <string name="set_both">set both</string>
+    <string name="set_as_background">установить на рабочий стол</string>
+    <string name="set_as_lockscreen">установить на экран блокировки</string>
+    <string name="search">search</string>
+    <string name="retry">повторить попытку</string>
+    <string name="permission_granted">Разрешение на доступ к уведомлениям получено</string>
+    <string name="grant_permission">Пожалуйста, предоставьте разрешение на доступ к фото, для скачивания картинки на ваше устройство</string>
+    <string name="downloading">Загрузка...</string>
+    <string name="download_failed">Загрузка изображения не удалась %1$s</string>
+    <string name="download">скачать</string>
+    <string name="set_background_done">обои успешно установлены на рабочий стол</string>
+    <string name="set_lock_screen_done">обои успешно установлены на экран блокировки</string>
+    <string name="no_internet_connection">ошибка: отсутствует интернет</string>
+    <string name="categories">Категории</string>
+    <string name="back">back</string>
+    <string name="favorites_image">Favorites image</string>
+    <string name="Save_to_favorites">Добавлено в избранное</string>
 </resources>

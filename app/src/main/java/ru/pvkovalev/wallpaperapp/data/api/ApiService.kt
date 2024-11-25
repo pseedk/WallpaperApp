@@ -22,7 +22,7 @@ interface ApiService {
     ): Search
 
     companion object {
-        private const val TOKEN = "9AWo_bzu4P-UgvLU6rrxfDubVrV6sCaiJWqWNWVqyT0"
+        private const val TOKEN = ""
     }
 
 }

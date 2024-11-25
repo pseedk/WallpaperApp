@@ -9,6 +9,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".di.WallpaperApp"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +19,7 @@
         android:theme="@style/Theme.RetroMVVM"
         tools:targetApi="31">
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".presentation.MainActivity"
             android:theme="@style/Theme.App.SplashScreen"
             android:exported="true">
             <intent-filter>

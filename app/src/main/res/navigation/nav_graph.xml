@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="ru.pvkovalev.wallpaperapp.ui.fragments.MainFragment"
+        android:name="ru.pvkovalev.wallpaperapp.presentation.fragments.main.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -21,21 +21,21 @@
     </fragment>
     <fragment
         android:id="@+id/downloadFragment"
-        android:name="ru.pvkovalev.wallpaperapp.ui.fragments.DownloadFragment"
+        android:name="ru.pvkovalev.wallpaperapp.presentation.fragments.download.DownloadFragment"
         android:label="fragment_download"
         tools:layout="@layout/fragment_download" >
         <argument
             android:name="args"
-            app:nullable="true"
-            app:argType="ru.pvkovalev.wallpaperapp.model.ResponseUnsplashPhoto" />
+            app:argType="ru.pvkovalev.wallpaperapp.data.api.model.ResponseUnsplashPhoto"
+            app:nullable="true" />
         <argument
             android:name="args2"
-            app:argType="ru.pvkovalev.wallpaperapp.db.WallpaperEntity"
+            app:argType="ru.pvkovalev.wallpaperapp.domain.model.WallpaperItem"
             app:nullable="true" />
     </fragment>
     <fragment
         android:id="@+id/specificCategoryFragment"
-        android:name="ru.pvkovalev.wallpaperapp.ui.fragments.SpecificCategoryFragment"
+        android:name="ru.pvkovalev.wallpaperapp.presentation.fragments.specificcategory.SpecificCategoryFragment"
         android:label="fragment_specific_category"
         tools:layout="@layout/fragment_specific_category" >
         <action

@@ -1,6 +1,6 @@
 package ru.pvkovalev.wallpaperapp.utils
 
-import ru.pvkovalev.wallpaperapp.model.Category
+import ru.pvkovalev.wallpaperapp.domain.model.Category
 
 object ApiListCategory {
 
